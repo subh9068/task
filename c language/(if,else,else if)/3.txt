@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+  int x,y,z;
+  printf("Enter 3 no.:");
+  scanf("%d%d%d",&x,&y,&z);
+  if(x>y&&x>z)
+    printf("x is greter no.");
+  else if(y>x&&y>z)
+    printf("y is greater no.");
+  else 
+    printf("z is greater no.");
+  return 0;
+ } 
