@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-  int ch;
+  char ch;
   printf("Ente upper case or lower case alphabet:");
   scanf("%c",&ch);
   if(ch>=65&&ch<=90)
