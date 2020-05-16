@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+  int angle1,angle2,angle3,sum;
+  printf("Enter three angle:");
+  scanf("%d%d%d",&angle1,&angle2,&angle3);
+  sum=angle1+angle2+angle3;
+  if(sum==180&&angle1>0angle2>0amgle3>0)
+  {
+    if(angle1==angle2&&angle2==angle3)
+      printf("Equilateral triangle");
+    else if(angle1==angle2&&angle1==angle3&&angle2==angle3)
+      printf("isosceles triangle");
+    else if(angle1!=angle2&&angle2!=angle3);
+      printf("scalene triangle");
+   }
+    else
+      printf("not triangle");
+    return 0;
+ }   
